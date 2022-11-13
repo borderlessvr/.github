@@ -21,5 +21,9 @@ S3 Buckets
 - Lobby Storage  
 
 
-### Mongo DB
+## Mongo DB
+
+Local 
+
+Atlas
 
