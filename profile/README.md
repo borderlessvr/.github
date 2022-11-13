@@ -7,18 +7,19 @@ A place for information not specific to any one app or service.
 General:  
 - Regions: Where applicable we will use us-east-1 (N. Virginia)
 
-
 Clusters  
 
-- Services  
+Services  
 
-- Task Definitions  
+Task Definitions  
 
 Registries
-
 
 
 S3 Buckets  
 - Module Storage
 - Lobby Storage  
+
+
+### Mongo DB
 
