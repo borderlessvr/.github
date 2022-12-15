@@ -31,5 +31,3 @@ Atlas
 ## CRM
 
 To be determined
-
-## Publisher Data Stucture
