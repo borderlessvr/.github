@@ -1,0 +1,191 @@
+{
+  "_id": "639172b62ce5f223153a5449",
+  "client": {
+    "_id": "84930274",
+    "name": "Act One"
+  },
+  "createdDate": 1668055166342,
+  "createdBy": "matt@borderlessvr.com",
+  "modifiedDate": 1668055166342,
+  "modifiedBy": "matt@borderlessvr.com",
+  "lobby": "6388fd152cb1b9dfcfe28a54",
+  "name": "experience name",
+  "description": "this is a really cool experience",
+  "image": {
+    "name": "experience icon.png",
+    "size": 2368730,
+    "lastModified": 1668055166342
+  },
+  "type": "self-guided",
+  "modules": [
+    {
+      "_id": "639173002ce5f223153a544a",
+      "clientID": 84930274,
+      "createdDate": 1668055166342,
+      "createdBy": "sam@borderlessvr.com",
+      "modifiedDate": 1668055166343,
+      "modifiedBy": "valerie@borderlessvr.com",
+      "type": "gallery",
+      "name": "module 1 name",
+      "description": "this is a really cool gallery module",
+      "order": 0,
+      "cover": {
+        "image": {
+          "name": "lobby card image.png",
+          "size": 2368730,
+          "lastModified": 1668055166342
+        },
+        "text": "text on card",
+      },
+      "content": [
+        {
+          "order": 0,
+          "image": {
+            "name": "image-1.JPG",
+            "size": 5015606,
+            "lastModified": 1668045163000
+          },
+          "caption": "optional string 1",
+          "type": "<string>: theater-2d | panorama-180 | panorama-360",
+          "layout": "<string>: none | side-by-side | over-under"
+        },
+        {
+          "order": 1,
+          "image": {
+            "name": "image-2.JPG",
+            "size": 5015606,
+            "lastModified": 1668045163000
+          },
+          "caption": "optional string 2",
+          "type": "<string>: theater-2d | panorama-180 | panorama-360",
+          "layout": "<string>: none | side-by-side | over-under"
+        }
+      ],
+    },
+    {
+      "_id": "639177be2ce5f223153a544b",
+      "clientID": 84930274,
+      "createdDate": 1668055166342,
+      "createdBy": "jonan@borderlessvr.com",
+      "lastModified": 1668055166343,
+      "modifiedBy": "dave@borderlessvr.com",
+      "moduleType": "video",
+      "name": "module 2 name",
+      "description": "this is a really cool video module",
+      "order": 1,
+      "cover": {
+        "images": {
+          "name": "video card image.png",
+          "size": 2368730,
+          "lastModified": 1668055166342
+        },
+        "text": "text on video card",
+      },
+      "content": [
+        {
+          "type": "<string>: theater-2d | panorama-180 | panorama-360",
+          "layout": "<string>: none | side-by-side | over-under",
+          "video": {
+            "name": "video name.mp4",
+            "size": 12191418,
+            "lastModified": 1668055866000
+          }
+        }
+      ]
+    },
+    {
+      "_id": "63917aa82ce5f223153a544c",
+      "clientID": 84930274,
+      "createdDate": 1668055166342,
+      "createdBy": "sam@borderlessvr.com",
+      "lastModified": 1668055166343,
+      "modifiedBy": "valerie@borderlessvr.com",
+      "type": "questionnaire",
+      "name": "module 3 name",
+      "description": "this is a really cool questionnaire module",
+      "order": 2,
+      "cover": {
+        "image": {
+          "name": "quest_default.png",
+          "size": 2368730,
+          "lastModified": 1668055166342
+        },
+        "text": "",
+      },
+      "content": [
+        {
+          "text": "what's your favorite color?",
+          "image": {
+            "name": "optional image name.png",
+            "size": 2368730,
+            "lastModified": 1668055166342
+          },
+          "type": "single-select",
+          "order": 0,
+          "options": [
+            {
+              "text": "option 1",
+              "image": {
+                "name": "image name.png",
+                "size": 2368730,
+                "lastModified": 1668055166342
+              },
+              "isCorrect": false,
+              "order": 0
+            },
+            {
+              "text": "option 2",
+              "image": {},
+              "isCorrect": false,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "text": "which of the following animals are cool?",
+          "image": {},
+          "type": "multi-select",
+          "order": 1,
+          "options": [
+            {
+              "text": "",
+              "image": {
+                "name": "bird.png",
+                "size": 2368730,
+                "lastModified": 1668055166342
+              },
+              "isCorrect": false,
+              "order": 0
+            },
+            {
+              "text": "",
+              "image": {
+                "name": "dog.png",
+                "size": 2368730,
+                "lastModified": 1668055166342
+              },
+              "isCorrect": false,
+              "order": 1
+            },
+            {
+              "text": "",
+              "image": {
+                "name": "beaver.png",
+                "size": 2368730,
+                "lastModified": 1668055166342
+              },
+              "isCorrect": false,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "text": "what's your name?",
+          "image": {},
+          "type": "freeform",
+          "order": 2
+        }
+      ],
+    }
+  ]
+}
