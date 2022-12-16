@@ -20,7 +20,10 @@
   "modules": [
     {
       "_id": "639173002ce5f223153a544a",
-      "clientID": 84930274,
+      "client": {
+        "_id": "84930275",
+        "name": "Samsung"
+      },
       "createdDate": 1668055166342,
       "createdBy": "sam@borderlessvr.com",
       "modifiedDate": 1668055166343,
@@ -64,7 +67,10 @@
     },
     {
       "_id": "639177be2ce5f223153a544b",
-      "clientID": 84930274,
+      "client": {
+        "_id": "84930275",
+        "name": "Samsung"
+      },
       "createdDate": 1668055166342,
       "createdBy": "jonan@borderlessvr.com",
       "lastModified": 1668055166343,
@@ -95,7 +101,10 @@
     },
     {
       "_id": "63917aa82ce5f223153a544c",
-      "clientID": 84930274,
+      "client": {
+        "_id": "84930275",
+        "name": "Samsung"
+      },
       "createdDate": 1668055166342,
       "createdBy": "sam@borderlessvr.com",
       "lastModified": 1668055166343,
