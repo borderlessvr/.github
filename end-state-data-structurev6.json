@@ -31,7 +31,7 @@
       "type": "gallery",
       "name": "module 1 name",
       "description": "this is a really cool gallery module",
-      "order": 0,
+      "placement": 0,
       "cover": {
         "image": {
           "name": "lobby card image.png",
@@ -42,7 +42,7 @@
       },
       "content": [
         {
-          "order": 0,
+          "placement": 0,
           "image": {
             "name": "image-1.JPG",
             "size": 5015606,
@@ -53,7 +53,7 @@
           "layout": "<string>: none | side-by-side | over-under"
         },
         {
-          "order": 1,
+          "placement": 1,
           "image": {
             "name": "image-2.JPG",
             "size": 5015606,
@@ -78,7 +78,7 @@
       "moduleType": "video",
       "name": "module 2 name",
       "description": "this is a really cool video module",
-      "order": 1,
+      "placement": 1,
       "cover": {
         "images": {
           "name": "video card image.png",
@@ -112,7 +112,7 @@
       "type": "questionnaire",
       "name": "module 3 name",
       "description": "this is a really cool questionnaire module",
-      "order": 2,
+      "placement": 2,
       "cover": {
         "image": {
           "name": "quest_default.png",
@@ -130,7 +130,7 @@
             "lastModified": 1668055166342
           },
           "type": "single-select",
-          "order": 0,
+          "placement": 0,
           "options": [
             {
               "text": "option 1",
@@ -140,13 +140,13 @@
                 "lastModified": 1668055166342
               },
               "isCorrect": false,
-              "order": 0
+              "placement": 0
             },
             {
               "text": "option 2",
               "image": {},
               "isCorrect": false,
-              "order": 1
+              "placement": 1
             }
           ]
         },
@@ -154,7 +154,7 @@
           "text": "which of the following animals are cool?",
           "image": {},
           "type": "multi-select",
-          "order": 1,
+          "placement": 1,
           "options": [
             {
               "text": "",
@@ -164,7 +164,7 @@
                 "lastModified": 1668055166342
               },
               "isCorrect": false,
-              "order": 0
+              "placement": 0
             },
             {
               "text": "",
@@ -174,7 +174,7 @@
                 "lastModified": 1668055166342
               },
               "isCorrect": false,
-              "order": 1
+              "placement": 1
             },
             {
               "text": "",
@@ -184,7 +184,7 @@
                 "lastModified": 1668055166342
               },
               "isCorrect": false,
-              "order": 2
+              "placement": 2
             }
           ]
         },
@@ -192,7 +192,7 @@
           "text": "what's your name?",
           "image": {},
           "type": "freeform",
-          "order": 2
+          "placement": 2
         }
       ],
     }
