@@ -1,9 +1,6 @@
 {
   "_id": "639172b62ce5f223153a5449",
-  "client": {
-    "_id": "84930274",
-    "name": "Act One"
-  },
+  "client": "6335c4b93b9a7c1203d37b88",
   "createdDate": 1668055166342,
   "createdBy": "matt@borderlessvr.com",
   "modifiedDate": 1668055166342,
