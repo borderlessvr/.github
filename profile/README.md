@@ -1,33 +1,37 @@
 # Borderless VR
-A place for information not specific to any one app or service. 
 
+Virtual Reality Delivered.
 
-## AWS Information
+## Apps / Sites
 
-General:  
-- Regions: Where applicable we will use us-east-1 (N. Virginia)
+- [Publisher](https://github.com/borderlessvr/publisher) - Create interactive VR **experiences** by combining **videos**, **galleries** and **questionnaires**.
 
-Clusters  
+- [Unity](https://github.com/borderlessvr/publisher) - Android app that displays the **experiences** on headsets or tablets.
 
-Services  
+- [Borderless For Business]() - _Coming Soon..._ App designed for one on one training.
 
-Task Definitions  
+- [Borderless Guide App]() - _Coming Soon..._ App designed for one to many educational content.
 
-Registries
+- [Borderless Consumer Site]() - _Coming Soon..._ Website for consumers that want to rent Borderless experiences and equipment.
 
+## Services
 
-S3 Buckets  
-- Module Storage
-- Lobby Storage  
+- [API](https://github.com/borderlessvr/api) - The backend for all Borderless Apps. Points to the Borderless Mongo batabase which stores all non-media content for **modules** and **experiences**.
 
+- [Atlas](https://cloud.mongodb.com/v2#/org/636c14fc71894f716e9d9220/) - MongoDB in the cloud.
 
-## Mongo DB
+- [AWS S3](https://s3.console.aws.amazon.com/s3/buckets/borderless-experiences) - Bucket for storing all **module** media content (images, video, etc.) and our latest builds from **Unity**.
 
-Local 
+- [AWS Cognito](https://us-east-1.console.aws.amazon.com/cognito/v2/idp/user-pools/us-east-1_Sct4qfsfQ) - Our CRM which stores **clients**, **users**.
 
-Atlas
+## Libraries
 
+- [Essentials](https://github.com/borderlessvr/essentials) - The Borderless component library offering all the building blocks and base styles for Apps and Sites.
 
-## CRM
+## Other
 
-To be determined
+- [Architecture Diagrams](https://www.figma.com/file/NkVtg3KdVazmI2nbJnc7eA/Updated-Borderless-Architecture?node-id=0%3A1&t=7Aiq7IfhRgQq4bww-0)
+- [Credentials Document](https://docs.google.com/document/d/1TNWL-ZrLW3RrpeFB3b09-U-gz4EGi1-HehWRJ1YAdH4/edit)
+- [Project Board](https://github.com/orgs/borderlessvr/projects/1)
+- Project Roadmap
+- [Data Models](https://github.com/borderlessvr/.github/tree/main/data-models)
