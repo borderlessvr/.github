@@ -1,6 +1,9 @@
 {
   "_id": "639172b62ce5f223153a5449",
-  "client": "6335c4b93b9a7c1203d37b88",
+  "client": {
+    "_id": "6335c4b93b9a7c1203d37b88",
+    "name": "Borderless"
+  },
   "createdDate": 1668055166342,
   "createdBy": "matt@borderlessvr.com",
   "modifiedDate": 1668055166342,
